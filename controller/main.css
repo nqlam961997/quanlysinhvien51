@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background: pink;
+    font-family: 'Grandstander', cursive;
+}
+
+.toDoList{
+    margin-top: 50px;
+    margin-left: 40%;
+    width: 25%;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+
+    border: 3px solid rgba(236, 233, 233, 0.3);
+    box-shadow: beige;
+    position: relative;
+    background-color: #eef2f5;
+}
+.toDoList img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.toDoList-bg{
+    position: absolute;
+    background-color: transparent;
+    top: 135px;
+    left: 0;
+    border-bottom: 4vw solid;
+    border-bottom-color:#eef2f5;
+    border-right: 24.5vw solid transparent;
+}
+
+.btnThem{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid rgb(240, 51, 139);
+    position: absolute;
+    right: 20px;
+    margin-top: -5px;
+}
+
+.btnThem span{
+    color: rgb(240, 51, 139);
+}
+
+.form-group{
+    display: flex;
+}
+
+.Add {
+    display: block;
+    border-radius: 3px;
+    border-right: 0;
+    width: 90%;
+    height: 40px;
+    border: 2px rgb(240, 51, 139) solid;
+    color: white;
+    background-color: pink;
+    box-shadow: none;
+    padding-left: 20px;
+    border-right: none;
+    position: relative;
+}
+
+.btnLoc{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background: rgb(240, 51, 139);
+    border: 1px solid white;
+
+    position: absolute; 
+    top: 158px;
+    right: 25px;
+}
+
+.btnLoc i{
+    color: white;
+}
